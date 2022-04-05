@@ -32,7 +32,6 @@ namespace LMGHRmanagement
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tinsa_Fam_Form));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.fam_empno = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,6 +43,7 @@ namespace LMGHRmanagement
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -76,12 +76,6 @@ namespace LMGHRmanagement
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90.25974F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1013, 616);
             this.tableLayoutPanel1.TabIndex = 0;
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "Search.png");
             // 
             // panel2
             // 
@@ -182,7 +176,7 @@ namespace LMGHRmanagement
             this.comboBox1.Items.AddRange(new object[] {
             "동거",
             "안함"});
-            this.comboBox1.Location = new System.Drawing.Point(65, 106);
+            this.comboBox1.Location = new System.Drawing.Point(65, 115);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(52, 20);
             this.comboBox1.TabIndex = 3;
@@ -193,11 +187,17 @@ namespace LMGHRmanagement
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ImageKey = "Search.png";
             this.button2.ImageList = this.imageList1;
-            this.button2.Location = new System.Drawing.Point(171, 37);
+            this.button2.Location = new System.Drawing.Point(171, 46);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(46, 21);
             this.button2.TabIndex = 2;
             this.button2.UseVisualStyleBackColor = false;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "Search.png");
             // 
             // button1
             // 
@@ -205,7 +205,7 @@ namespace LMGHRmanagement
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ImageKey = "Search.png";
             this.button1.ImageList = this.imageList1;
-            this.button1.Location = new System.Drawing.Point(171, 14);
+            this.button1.Location = new System.Drawing.Point(171, 23);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(46, 21);
             this.button1.TabIndex = 2;
@@ -213,7 +213,7 @@ namespace LMGHRmanagement
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(65, 83);
+            this.textBox4.Location = new System.Drawing.Point(65, 92);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 21);
             this.textBox4.TabIndex = 1;
@@ -221,7 +221,7 @@ namespace LMGHRmanagement
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 109);
+            this.label5.Location = new System.Drawing.Point(6, 118);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(53, 12);
             this.label5.TabIndex = 0;
@@ -229,7 +229,7 @@ namespace LMGHRmanagement
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(65, 60);
+            this.textBox3.Location = new System.Drawing.Point(65, 69);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 21);
             this.textBox3.TabIndex = 1;
@@ -237,7 +237,7 @@ namespace LMGHRmanagement
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 86);
+            this.label4.Location = new System.Drawing.Point(6, 95);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 12);
             this.label4.TabIndex = 0;
@@ -245,7 +245,7 @@ namespace LMGHRmanagement
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(65, 37);
+            this.textBox2.Location = new System.Drawing.Point(65, 46);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(100, 21);
@@ -254,7 +254,7 @@ namespace LMGHRmanagement
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 63);
+            this.label3.Location = new System.Drawing.Point(6, 72);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 12);
             this.label3.TabIndex = 0;
@@ -262,7 +262,7 @@ namespace LMGHRmanagement
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(65, 14);
+            this.textBox1.Location = new System.Drawing.Point(65, 23);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(100, 21);
@@ -271,7 +271,7 @@ namespace LMGHRmanagement
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 40);
+            this.label2.Location = new System.Drawing.Point(6, 49);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(29, 12);
             this.label2.TabIndex = 0;
@@ -280,7 +280,7 @@ namespace LMGHRmanagement
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 17);
+            this.label1.Location = new System.Drawing.Point(6, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 12);
             this.label1.TabIndex = 0;

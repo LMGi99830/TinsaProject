@@ -226,7 +226,7 @@ namespace LMGHRmanagement
             this.comboBox1.Items.AddRange(new object[] {
             "내부",
             "외부"});
-            this.comboBox1.Location = new System.Drawing.Point(101, 208);
+            this.comboBox1.Location = new System.Drawing.Point(101, 218);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(52, 20);
             this.comboBox1.TabIndex = 10;
@@ -234,7 +234,7 @@ namespace LMGHRmanagement
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 211);
+            this.label7.Location = new System.Drawing.Point(6, 221);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(53, 12);
             this.label7.TabIndex = 9;
@@ -243,14 +243,14 @@ namespace LMGHRmanagement
             // dateTimePicker1
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(101, 37);
+            this.dateTimePicker1.Location = new System.Drawing.Point(101, 47);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(100, 21);
             this.dateTimePicker1.TabIndex = 8;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(101, 129);
+            this.textBox5.Location = new System.Drawing.Point(101, 139);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(252, 77);
@@ -260,7 +260,7 @@ namespace LMGHRmanagement
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 132);
+            this.label6.Location = new System.Drawing.Point(6, 142);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(53, 12);
             this.label6.TabIndex = 6;
@@ -269,7 +269,7 @@ namespace LMGHRmanagement
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(101, 106);
+            this.textBox4.Location = new System.Drawing.Point(101, 116);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(152, 21);
             this.textBox4.TabIndex = 7;
@@ -278,7 +278,7 @@ namespace LMGHRmanagement
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 109);
+            this.label5.Location = new System.Drawing.Point(6, 119);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(87, 12);
             this.label5.TabIndex = 6;
@@ -287,7 +287,7 @@ namespace LMGHRmanagement
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(101, 83);
+            this.textBox2.Location = new System.Drawing.Point(101, 93);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(152, 21);
             this.textBox2.TabIndex = 7;
@@ -296,7 +296,7 @@ namespace LMGHRmanagement
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 86);
+            this.label4.Location = new System.Drawing.Point(6, 96);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 12);
             this.label4.TabIndex = 6;
@@ -305,7 +305,7 @@ namespace LMGHRmanagement
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(101, 60);
+            this.textBox3.Location = new System.Drawing.Point(101, 70);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 21);
             this.textBox3.TabIndex = 7;
@@ -313,7 +313,7 @@ namespace LMGHRmanagement
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 63);
+            this.label2.Location = new System.Drawing.Point(6, 73);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 12);
             this.label2.TabIndex = 6;
@@ -322,7 +322,7 @@ namespace LMGHRmanagement
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 43);
+            this.label3.Location = new System.Drawing.Point(6, 53);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 12);
             this.label3.TabIndex = 6;
@@ -334,7 +334,7 @@ namespace LMGHRmanagement
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ImageKey = "Search.png";
             this.button3.ImageList = this.imageList1;
-            this.button3.Location = new System.Drawing.Point(207, 253);
+            this.button3.Location = new System.Drawing.Point(207, 263);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(46, 21);
             this.button3.TabIndex = 5;
@@ -352,7 +352,7 @@ namespace LMGHRmanagement
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ImageKey = "Search.png";
             this.button2.ImageList = this.imageList1;
-            this.button2.Location = new System.Drawing.Point(207, 230);
+            this.button2.Location = new System.Drawing.Point(207, 240);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(46, 21);
             this.button2.TabIndex = 5;
@@ -364,7 +364,7 @@ namespace LMGHRmanagement
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ImageKey = "Search.png";
             this.button1.ImageList = this.imageList1;
-            this.button1.Location = new System.Drawing.Point(207, 14);
+            this.button1.Location = new System.Drawing.Point(207, 24);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(46, 21);
             this.button1.TabIndex = 5;
@@ -372,7 +372,7 @@ namespace LMGHRmanagement
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(101, 253);
+            this.textBox7.Location = new System.Drawing.Point(101, 263);
             this.textBox7.Name = "textBox7";
             this.textBox7.ReadOnly = true;
             this.textBox7.Size = new System.Drawing.Size(100, 21);
@@ -382,7 +382,7 @@ namespace LMGHRmanagement
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(6, 256);
+            this.label9.Location = new System.Drawing.Point(6, 266);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(63, 12);
             this.label9.TabIndex = 3;
@@ -390,7 +390,7 @@ namespace LMGHRmanagement
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(101, 230);
+            this.textBox6.Location = new System.Drawing.Point(101, 240);
             this.textBox6.Name = "textBox6";
             this.textBox6.ReadOnly = true;
             this.textBox6.Size = new System.Drawing.Size(100, 21);
@@ -399,7 +399,7 @@ namespace LMGHRmanagement
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 233);
+            this.label8.Location = new System.Drawing.Point(6, 243);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(63, 12);
             this.label8.TabIndex = 3;
@@ -407,7 +407,7 @@ namespace LMGHRmanagement
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(101, 14);
+            this.textBox1.Location = new System.Drawing.Point(101, 24);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(100, 21);
@@ -416,7 +416,7 @@ namespace LMGHRmanagement
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 17);
+            this.label1.Location = new System.Drawing.Point(6, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 12);
             this.label1.TabIndex = 3;

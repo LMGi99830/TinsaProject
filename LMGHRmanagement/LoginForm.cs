@@ -14,7 +14,7 @@ namespace LMGHRmanagement
     {
         public LoginForm()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
     }
 }

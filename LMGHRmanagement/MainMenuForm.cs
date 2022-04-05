@@ -131,13 +131,13 @@ namespace LMGHRmanagement
 
         private void button29_Click(object sender, EventArgs e)
         {
-            Tinsa_Code_Form tbf = new Tinsa_Code_Form();
+            TInsa_GroupCode_Form tbf = new TInsa_GroupCode_Form();
             this.pannelStyledChange(tbf);
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-            Tinsa_Dept_Form tbf = new Tinsa_Dept_Form();
+            Tinsa_Code_Form tbf = new Tinsa_Code_Form();
             this.pannelStyledChange(tbf);
         }
 
@@ -159,8 +159,6 @@ namespace LMGHRmanagement
             this.pannelStyledChange(tbf);
         }
       
-      
-
         private void button20_Click(object sender, EventArgs e)
         {
             Tinsa_Dept_Total_Form tbf = new Tinsa_Dept_Total_Form();
@@ -194,7 +192,6 @@ namespace LMGHRmanagement
             Tinsa_Nopwr_Form tbf = new Tinsa_Nopwr_Form();
             this.pannelStyledChange(tbf);
         }
-
         private void button21_Click(object sender, EventArgs e)
         {
             Tinsa_Rank_Total_Form tbf = new Tinsa_Rank_Total_Form();
@@ -210,6 +207,18 @@ namespace LMGHRmanagement
         private void button16_Click(object sender, EventArgs e)
         {
             Tinsa_Career_Certificate_Form tbf = new Tinsa_Career_Certificate_Form();
+            this.pannelStyledChange(tbf);
+        }
+
+        private void button18_Click_1(object sender, EventArgs e)
+        {
+            Tinsa_Career_Total_Form tbf = new Tinsa_Career_Total_Form();
+            this.pannelStyledChange(tbf);
+        }
+
+        private void button28_Click_1(object sender, EventArgs e)
+        {
+            Tinsa_Dept_Form tbf = new Tinsa_Dept_Form();
             this.pannelStyledChange(tbf);
         }
     }

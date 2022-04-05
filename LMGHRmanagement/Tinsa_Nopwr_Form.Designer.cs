@@ -100,9 +100,9 @@ namespace LMGHRmanagement
             // 
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(3, 49);
+            this.panel2.Location = new System.Drawing.Point(3, 67);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(544, 564);
+            this.panel2.Size = new System.Drawing.Size(544, 546);
             this.panel2.TabIndex = 1;
             // 
             // dataGridView1
@@ -128,7 +128,7 @@ namespace LMGHRmanagement
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(544, 564);
+            this.dataGridView1.Size = new System.Drawing.Size(544, 546);
             this.dataGridView1.TabIndex = 0;
             // 
             // Column1
@@ -199,7 +199,7 @@ namespace LMGHRmanagement
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(108, 19);
+            this.button9.Location = new System.Drawing.Point(108, 37);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 21);
             this.button9.TabIndex = 20;
@@ -210,7 +210,7 @@ namespace LMGHRmanagement
             // 
             this.dateTimePicker1.CustomFormat = "yyyy";
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(41, 19);
+            this.dateTimePicker1.Location = new System.Drawing.Point(41, 37);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(61, 21);
             this.dateTimePicker1.TabIndex = 1;
@@ -218,7 +218,7 @@ namespace LMGHRmanagement
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 25);
+            this.label1.Location = new System.Drawing.Point(6, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 12);
             this.label1.TabIndex = 0;
@@ -230,7 +230,7 @@ namespace LMGHRmanagement
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(544, 40);
+            this.panel1.Size = new System.Drawing.Size(544, 58);
             this.panel1.TabIndex = 0;
             // 
             // groupBox1
@@ -241,7 +241,7 @@ namespace LMGHRmanagement
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(544, 40);
+            this.groupBox1.Size = new System.Drawing.Size(544, 58);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "검색옵션";
@@ -258,8 +258,8 @@ namespace LMGHRmanagement
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.467533F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 92.53247F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.55195F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 89.44805F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1013, 616);
             this.tableLayoutPanel1.TabIndex = 1;
             // 

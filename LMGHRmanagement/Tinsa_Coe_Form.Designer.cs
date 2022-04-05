@@ -43,6 +43,7 @@ namespace LMGHRmanagement
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -50,7 +51,6 @@ namespace LMGHRmanagement
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -78,7 +78,7 @@ namespace LMGHRmanagement
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(1007, 569);
+            this.dataGridView1.Size = new System.Drawing.Size(1007, 549);
             this.dataGridView1.TabIndex = 0;
             // 
             // Column1
@@ -142,7 +142,7 @@ namespace LMGHRmanagement
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1007, 35);
+            this.panel1.Size = new System.Drawing.Size(1007, 55);
             this.panel1.TabIndex = 0;
             // 
             // groupBox1
@@ -156,10 +156,19 @@ namespace LMGHRmanagement
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1007, 35);
+            this.groupBox1.Size = new System.Drawing.Size(1007, 55);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "검색 옵션";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(893, 26);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(111, 23);
+            this.button1.TabIndex = 21;
+            this.button1.Text = "증명서 발급";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -167,7 +176,7 @@ namespace LMGHRmanagement
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ImageKey = "Search.png";
             this.button2.ImageList = this.imageList1;
-            this.button2.Location = new System.Drawing.Point(312, 14);
+            this.button2.Location = new System.Drawing.Point(312, 34);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(46, 21);
             this.button2.TabIndex = 19;
@@ -175,7 +184,7 @@ namespace LMGHRmanagement
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(206, 14);
+            this.textBox1.Location = new System.Drawing.Point(206, 34);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 21);
             this.textBox1.TabIndex = 17;
@@ -183,7 +192,7 @@ namespace LMGHRmanagement
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 17);
+            this.label1.Location = new System.Drawing.Point(6, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 12);
             this.label1.TabIndex = 16;
@@ -191,7 +200,7 @@ namespace LMGHRmanagement
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(65, 14);
+            this.textBox2.Location = new System.Drawing.Point(65, 34);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 21);
             this.textBox2.TabIndex = 18;
@@ -199,7 +208,7 @@ namespace LMGHRmanagement
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(171, 17);
+            this.label2.Location = new System.Drawing.Point(171, 37);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(29, 12);
             this.label2.TabIndex = 15;
@@ -210,9 +219,9 @@ namespace LMGHRmanagement
             this.tableLayoutPanel1.SetColumnSpan(this.panel2, 2);
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(3, 44);
+            this.panel2.Location = new System.Drawing.Point(3, 64);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1007, 569);
+            this.panel2.Size = new System.Drawing.Size(1007, 549);
             this.panel2.TabIndex = 1;
             // 
             // tableLayoutPanel1
@@ -226,19 +235,10 @@ namespace LMGHRmanagement
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.818182F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 93.18182F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.06493F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 89.93507F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1013, 616);
             this.tableLayoutPanel1.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(893, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 23);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "증명서 발급";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // Tinsa_Coe_Form
             // 

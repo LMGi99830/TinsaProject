@@ -31,9 +31,9 @@ namespace LMGHRmanagement
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tinsa_Dept_Total_Form));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -51,8 +51,6 @@ namespace LMGHRmanagement
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel5 = new System.Windows.Forms.Panel();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -60,6 +58,8 @@ namespace LMGHRmanagement
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -84,8 +84,8 @@ namespace LMGHRmanagement
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.98371F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85.01629F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.8469F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 79.15309F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 9F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 297F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1013, 614);
@@ -97,7 +97,7 @@ namespace LMGHRmanagement
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(544, 40);
+            this.panel1.Size = new System.Drawing.Size(544, 58);
             this.panel1.TabIndex = 0;
             // 
             // groupBox1
@@ -111,14 +111,14 @@ namespace LMGHRmanagement
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(544, 40);
+            this.groupBox1.Size = new System.Drawing.Size(544, 58);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "검색 옵션";
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(376, 21);
+            this.button9.Location = new System.Drawing.Point(376, 30);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 21);
             this.button9.TabIndex = 19;
@@ -127,7 +127,7 @@ namespace LMGHRmanagement
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(270, 21);
+            this.textBox2.Location = new System.Drawing.Point(270, 30);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 21);
             this.textBox2.TabIndex = 15;
@@ -138,7 +138,7 @@ namespace LMGHRmanagement
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ImageKey = "Search.png";
             this.button1.ImageList = this.imageList1;
-            this.button1.Location = new System.Drawing.Point(171, 21);
+            this.button1.Location = new System.Drawing.Point(171, 30);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(46, 21);
             this.button1.TabIndex = 14;
@@ -152,7 +152,7 @@ namespace LMGHRmanagement
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(65, 21);
+            this.textBox1.Location = new System.Drawing.Point(65, 30);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(100, 21);
@@ -161,7 +161,7 @@ namespace LMGHRmanagement
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 25);
+            this.label1.Location = new System.Drawing.Point(6, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 12);
             this.label1.TabIndex = 12;
@@ -170,7 +170,7 @@ namespace LMGHRmanagement
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(223, 25);
+            this.label6.Location = new System.Drawing.Point(223, 34);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(41, 12);
             this.label6.TabIndex = 5;
@@ -180,9 +180,9 @@ namespace LMGHRmanagement
             // 
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(3, 49);
+            this.panel2.Location = new System.Drawing.Point(3, 67);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(544, 255);
+            this.panel2.Size = new System.Drawing.Size(544, 237);
             this.panel2.TabIndex = 1;
             // 
             // dataGridView1
@@ -201,7 +201,7 @@ namespace LMGHRmanagement
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(544, 255);
+            this.dataGridView1.Size = new System.Drawing.Size(544, 237);
             this.dataGridView1.TabIndex = 0;
             // 
             // Column1
@@ -254,33 +254,6 @@ namespace LMGHRmanagement
             this.dataGridView2.Size = new System.Drawing.Size(544, 301);
             this.dataGridView2.TabIndex = 0;
             // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.chart1);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(553, 3);
-            this.panel4.Name = "panel4";
-            this.tableLayoutPanel1.SetRowSpan(this.panel4, 4);
-            this.panel4.Size = new System.Drawing.Size(457, 608);
-            this.panel4.TabIndex = 6;
-            // 
-            // chart1
-            // 
-            chartArea9.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea9);
-            this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend9.Name = "Legend1";
-            this.chart1.Legends.Add(legend9);
-            this.chart1.Location = new System.Drawing.Point(0, 0);
-            this.chart1.Name = "chart1";
-            series9.ChartArea = "ChartArea1";
-            series9.Legend = "Legend1";
-            series9.Name = "연령별인원";
-            this.chart1.Series.Add(series9);
-            this.chart1.Size = new System.Drawing.Size(457, 608);
-            this.chart1.TabIndex = 0;
-            this.chart1.Text = "chart1";
-            // 
             // Column4
             // 
             this.Column4.HeaderText = "사원번호";
@@ -322,6 +295,33 @@ namespace LMGHRmanagement
             this.Column7.HeaderText = "직급";
             this.Column7.Name = "Column7";
             this.Column7.ReadOnly = true;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.chart1);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(553, 3);
+            this.panel4.Name = "panel4";
+            this.tableLayoutPanel1.SetRowSpan(this.panel4, 4);
+            this.panel4.Size = new System.Drawing.Size(457, 608);
+            this.panel4.TabIndex = 6;
+            // 
+            // chart1
+            // 
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
+            this.chart1.Location = new System.Drawing.Point(0, 0);
+            this.chart1.Name = "chart1";
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "연령별인원";
+            this.chart1.Series.Add(series2);
+            this.chart1.Size = new System.Drawing.Size(457, 608);
+            this.chart1.TabIndex = 0;
+            this.chart1.Text = "chart1";
             // 
             // Tinsa_Dept_Total_Form
             // 
