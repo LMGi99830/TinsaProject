@@ -29,6 +29,7 @@ namespace LMGHRmanagement
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -46,6 +47,7 @@ namespace LMGHRmanagement
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel3 = new System.Windows.Forms.Panel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -61,6 +63,7 @@ namespace LMGHRmanagement
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -68,6 +71,7 @@ namespace LMGHRmanagement
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel3.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -172,6 +176,7 @@ namespace LMGHRmanagement
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(712, 548);
             this.dataGridView1.TabIndex = 2;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
             // Column1
@@ -230,6 +235,7 @@ namespace LMGHRmanagement
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.button4);
             this.groupBox3.Controls.Add(this.button3);
             this.groupBox3.Controls.Add(this.button2);
             this.groupBox3.Controls.Add(this.button1);
@@ -253,9 +259,19 @@ namespace LMGHRmanagement
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "그룹코드";
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(89, 509);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 8;
+            this.button4.Text = "삭제";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(105, 226);
+            this.button3.Location = new System.Drawing.Point(89, 538);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 8;
@@ -265,7 +281,7 @@ namespace LMGHRmanagement
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(24, 226);
+            this.button2.Location = new System.Drawing.Point(8, 538);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 8;
@@ -275,7 +291,7 @@ namespace LMGHRmanagement
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(24, 197);
+            this.button1.Location = new System.Drawing.Point(8, 509);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 7;
@@ -287,14 +303,16 @@ namespace LMGHRmanagement
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.comboBox1.Items.AddRange(new object[] {
+            "선택",
             "사용",
             "사용안함"});
             this.comboBox1.Location = new System.Drawing.Point(139, 124);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(75, 20);
             this.comboBox1.TabIndex = 5;
-            this.comboBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.comboBox1.TextChanged += new System.EventHandler(this.comboBox1_TextChanged);
             // 
             // label5
             // 
@@ -312,7 +330,7 @@ namespace LMGHRmanagement
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(54, 21);
             this.textBox5.TabIndex = 6;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textBox4
             // 
@@ -321,7 +339,7 @@ namespace LMGHRmanagement
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(25, 21);
             this.textBox4.TabIndex = 4;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // textBox3
             // 
@@ -330,7 +348,7 @@ namespace LMGHRmanagement
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(25, 21);
             this.textBox3.TabIndex = 3;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label8
             // 
@@ -365,7 +383,7 @@ namespace LMGHRmanagement
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 21);
             this.textBox2.TabIndex = 2;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label2
             // 
@@ -395,6 +413,10 @@ namespace LMGHRmanagement
             this.label1.TabIndex = 6;
             this.label1.Text = "그룹코드";
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // TInsa_GroupCode_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -412,6 +434,7 @@ namespace LMGHRmanagement
             this.panel3.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -450,5 +473,7 @@ namespace LMGHRmanagement
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Button button4;
     }
 }
