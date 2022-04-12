@@ -41,7 +41,7 @@ namespace LMGHRmanagement
             textBox4.Text = "";
             textBox5.Text = "";
             textBox6.Text = "";
-            comboBox2.Text = "";
+            comboBox1.Text = "";
         }
         #endregion
 
@@ -75,7 +75,7 @@ namespace LMGHRmanagement
             dataGridView1.Rows[RowIndex].Cells[3].Value = textBox4.Text;
             dataGridView1.Rows[RowIndex].Cells[4].Value = textBox5.Text;
             dataGridView1.Rows[RowIndex].Cells[5].Value = textBox6.Text;
-            dataGridView1.Rows[RowIndex].Cells[6].Value = comboBox2.Text;
+            dataGridView1.Rows[RowIndex].Cells[6].Value = comboBox1.Text;
         }
 
         private void textBox1_Click(object sender, EventArgs e)

@@ -67,14 +67,9 @@ namespace LMGHRmanagement
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -84,7 +79,7 @@ namespace LMGHRmanagement
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel9.SuspendLayout();
+            this.panel10.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -93,16 +88,18 @@ namespace LMGHRmanagement
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.42568F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80.57433F));
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel2, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.panel3, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.panel9, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.panel2, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.panel3, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.panel10, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.panel9, 1, 3);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 44.91018F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 55.08982F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 613F));
+            this.tableLayoutPanel1.RowCount = 4;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 76.63551F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.36449F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 600F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1284, 781);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -112,7 +109,7 @@ namespace LMGHRmanagement
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(243, 69);
+            this.panel1.Size = new System.Drawing.Size(243, 96);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
@@ -121,7 +118,7 @@ namespace LMGHRmanagement
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(243, 69);
+            this.pictureBox1.Size = new System.Drawing.Size(243, 96);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -141,10 +138,10 @@ namespace LMGHRmanagement
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(3, 78);
+            this.panel2.Location = new System.Drawing.Point(3, 136);
             this.panel2.Name = "panel2";
             this.tableLayoutPanel1.SetRowSpan(this.panel2, 2);
-            this.panel2.Size = new System.Drawing.Size(243, 700);
+            this.panel2.Size = new System.Drawing.Size(243, 642);
             this.panel2.TabIndex = 1;
             // 
             // panel8
@@ -672,31 +669,16 @@ namespace LMGHRmanagement
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(252, 78);
+            this.panel3.Location = new System.Drawing.Point(252, 3);
             this.panel3.Name = "panel3";
-            this.tableLayoutPanel1.SetRowSpan(this.panel3, 2);
-            this.panel3.Size = new System.Drawing.Size(1029, 700);
+            this.tableLayoutPanel1.SetRowSpan(this.panel3, 3);
+            this.panel3.Size = new System.Drawing.Size(1029, 727);
             this.panel3.TabIndex = 2;
-            // 
-            // panel9
-            // 
-            this.panel9.Controls.Add(this.checkBox1);
-            this.panel9.Controls.Add(this.button34);
-            this.panel9.Controls.Add(this.button33);
-            this.panel9.Controls.Add(this.button32);
-            this.panel9.Controls.Add(this.button31);
-            this.panel9.Controls.Add(this.button17);
-            this.panel9.Controls.Add(this.button30);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel9.Location = new System.Drawing.Point(252, 3);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1029, 69);
-            this.panel9.TabIndex = 3;
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(3, 43);
+            this.checkBox1.Location = new System.Drawing.Point(3, 3);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(116, 16);
             this.checkBox1.TabIndex = 1;
@@ -704,59 +686,22 @@ namespace LMGHRmanagement
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // button34
+            // panel10
             // 
-            this.button34.Location = new System.Drawing.Point(945, 39);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(75, 23);
-            this.button34.TabIndex = 0;
-            this.button34.Text = "인쇄";
-            this.button34.UseVisualStyleBackColor = true;
+            this.panel10.Controls.Add(this.checkBox1);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel10.Location = new System.Drawing.Point(3, 105);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(243, 25);
+            this.panel10.TabIndex = 4;
             // 
-            // button33
+            // panel9
             // 
-            this.button33.Location = new System.Drawing.Point(864, 39);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(75, 23);
-            this.button33.TabIndex = 0;
-            this.button33.Text = "조회";
-            this.button33.UseVisualStyleBackColor = true;
-            // 
-            // button32
-            // 
-            this.button32.Location = new System.Drawing.Point(783, 39);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(75, 23);
-            this.button32.TabIndex = 0;
-            this.button32.Text = "삭제";
-            this.button32.UseVisualStyleBackColor = true;
-            // 
-            // button31
-            // 
-            this.button31.Location = new System.Drawing.Point(702, 39);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(75, 23);
-            this.button31.TabIndex = 0;
-            this.button31.Text = "수정";
-            this.button31.UseVisualStyleBackColor = true;
-            // 
-            // button17
-            // 
-            this.button17.Location = new System.Drawing.Point(540, 39);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(75, 23);
-            this.button17.TabIndex = 0;
-            this.button17.Text = "저장";
-            this.button17.UseVisualStyleBackColor = true;
-            // 
-            // button30
-            // 
-            this.button30.Location = new System.Drawing.Point(621, 39);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(75, 23);
-            this.button30.TabIndex = 0;
-            this.button30.Text = "등록";
-            this.button30.UseVisualStyleBackColor = true;
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel9.Location = new System.Drawing.Point(252, 736);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(1029, 42);
+            this.panel9.TabIndex = 5;
             // 
             // MainMenuForm
             // 
@@ -775,8 +720,8 @@ namespace LMGHRmanagement
             this.panel6.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -787,11 +732,6 @@ namespace LMGHRmanagement
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button30;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel8;
@@ -825,8 +765,8 @@ namespace LMGHRmanagement
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel9;
     }
 }

@@ -221,5 +221,13 @@ namespace LMGHRmanagement
             Tinsa_Dept_Form tbf = new Tinsa_Dept_Form();
             this.pannelStyledChange(tbf);
         }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            
+
+
+            //GetType().GetMethod("Data_Load");
+        }
     }
 }

@@ -48,14 +48,13 @@ namespace LMGHRmanagement
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel6 = new System.Windows.Forms.Panel();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -69,6 +68,7 @@ namespace LMGHRmanagement
             this.label8 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -83,25 +83,27 @@ namespace LMGHRmanagement
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 77.4926F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.5074F));
-            this.tableLayoutPanel1.Controls.Add(this.panel4, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel5, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.panel6, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.panel4, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.panel5, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.panel6, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.233177F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90.76682F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1013, 614);
+            this.tableLayoutPanel1.RowCount = 3;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 43F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1013, 688);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel4
             // 
             this.panel4.Controls.Add(this.groupBox2);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(3, 3);
+            this.panel4.Location = new System.Drawing.Point(3, 55);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(779, 50);
+            this.panel4.Size = new System.Drawing.Size(779, 37);
             this.panel4.TabIndex = 3;
             // 
             // groupBox2
@@ -111,14 +113,14 @@ namespace LMGHRmanagement
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(779, 50);
+            this.groupBox2.Size = new System.Drawing.Size(779, 37);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "검색 옵션";
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(53, 27);
+            this.textBox9.Location = new System.Drawing.Point(52, 16);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(100, 21);
             this.textBox9.TabIndex = 8;
@@ -126,7 +128,7 @@ namespace LMGHRmanagement
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(6, 31);
+            this.label16.Location = new System.Drawing.Point(5, 20);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(41, 12);
             this.label16.TabIndex = 5;
@@ -136,9 +138,9 @@ namespace LMGHRmanagement
             // 
             this.panel5.Controls.Add(this.dataGridView1);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(3, 59);
+            this.panel5.Location = new System.Drawing.Point(3, 98);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(779, 552);
+            this.panel5.Size = new System.Drawing.Size(779, 587);
             this.panel5.TabIndex = 4;
             // 
             // dataGridView1
@@ -163,7 +165,7 @@ namespace LMGHRmanagement
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(779, 552);
+            this.dataGridView1.Size = new System.Drawing.Size(779, 587);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.DoubleClick += new System.EventHandler(this.dataGridView1_DoubleClick);
             // 
@@ -231,22 +233,21 @@ namespace LMGHRmanagement
             // 
             this.panel6.Controls.Add(this.groupBox4);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(788, 3);
+            this.panel6.Location = new System.Drawing.Point(788, 55);
             this.panel6.Name = "panel6";
             this.tableLayoutPanel1.SetRowSpan(this.panel6, 2);
-            this.panel6.Size = new System.Drawing.Size(222, 608);
+            this.panel6.Size = new System.Drawing.Size(222, 630);
             this.panel6.TabIndex = 5;
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.label1);
             this.groupBox4.Controls.Add(this.button2);
             this.groupBox4.Controls.Add(this.button1);
             this.groupBox4.Controls.Add(this.textBox8);
             this.groupBox4.Controls.Add(this.textBox7);
             this.groupBox4.Controls.Add(this.label15);
             this.groupBox4.Controls.Add(this.label14);
-            this.groupBox4.Controls.Add(this.comboBox2);
+            this.groupBox4.Controls.Add(this.comboBox1);
             this.groupBox4.Controls.Add(this.label13);
             this.groupBox4.Controls.Add(this.textBox6);
             this.groupBox4.Controls.Add(this.label12);
@@ -263,19 +264,10 @@ namespace LMGHRmanagement
             this.groupBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox4.Location = new System.Drawing.Point(0, 0);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(222, 608);
+            this.groupBox4.Size = new System.Drawing.Size(222, 630);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "단위코드";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 271);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 12);
-            this.label1.TabIndex = 31;
-            this.label1.Text = "label1";
             // 
             // button2
             // 
@@ -331,16 +323,16 @@ namespace LMGHRmanagement
             this.label14.TabIndex = 13;
             this.label14.Text = "생성일자";
             // 
-            // comboBox2
+            // comboBox1
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
             "사용",
             "사용안함"});
-            this.comboBox2.Location = new System.Drawing.Point(105, 165);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(75, 20);
-            this.comboBox2.TabIndex = 27;
+            this.comboBox1.Location = new System.Drawing.Point(105, 165);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(75, 20);
+            this.comboBox1.TabIndex = 27;
             // 
             // label13
             // 
@@ -454,11 +446,20 @@ namespace LMGHRmanagement
             this.label7.TabIndex = 15;
             this.label7.Text = "그룹코드";
             // 
+            // panel1
+            // 
+            this.tableLayoutPanel1.SetColumnSpan(this.panel1, 2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1007, 46);
+            this.panel1.TabIndex = 6;
+            // 
             // Tinsa_Code_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1013, 614);
+            this.ClientSize = new System.Drawing.Size(1013, 688);
             this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Tinsa_Code_Form";
@@ -487,7 +488,7 @@ namespace LMGHRmanagement
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label12;
@@ -517,7 +518,7 @@ namespace LMGHRmanagement
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
