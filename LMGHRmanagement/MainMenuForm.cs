@@ -82,86 +82,86 @@ namespace LMGHRmanagement
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Tinsa_Bas_Form tbf = new Tinsa_Bas_Form();
+            Tinsa_Bas1 tbf = new Tinsa_Bas1();
             this.pannelStyledChange(tbf);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Tinsa_Fam_Form tbf = new Tinsa_Fam_Form();
+            Tinsa_Bas2 tbf = new Tinsa_Bas2();
             this.pannelStyledChange(tbf);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Tinsa_Edu_Form tbf = new Tinsa_Edu_Form();
+            Tinsa_Bas3 tbf = new Tinsa_Bas3();
             this.pannelStyledChange(tbf);
 
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Tinsa_Car_Form tbf = new Tinsa_Car_Form();
+            Tinsa_Bas5 tbf = new Tinsa_Bas5();
             this.pannelStyledChange(tbf);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Tinsa_Award_Form tbf = new Tinsa_Award_Form();
+            Tinsa_Bas4 tbf = new Tinsa_Bas4();
             this.pannelStyledChange(tbf);
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            Tinsa_Lic_Form tbf = new Tinsa_Lic_Form();
+            Tinsa_Bas6 tbf = new Tinsa_Bas6();
             this.pannelStyledChange(tbf);
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            Tinsa_Forl_Form tbf = new Tinsa_Forl_Form();
+            Tinsa_Bas7 tbf = new Tinsa_Bas7();
             this.pannelStyledChange(tbf);
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            Tinsa_Search_Form tbf = new Tinsa_Search_Form();
+            Tinsa_Bas8 tbf = new Tinsa_Bas8();
             this.pannelStyledChange(tbf);
         }
 
         private void button29_Click(object sender, EventArgs e)
         {
-            TInsa_GroupCode_Form tbf = new TInsa_GroupCode_Form();
+            TInsa_Code1 tbf = new TInsa_Code1();
             this.pannelStyledChange(tbf);
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-            Tinsa_Code_Form tbf = new Tinsa_Code_Form();
+            TInsa_Code2 tbf = new TInsa_Code2();
             this.pannelStyledChange(tbf);
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            Tinsa_Issued_En_Form tbf = new Tinsa_Issued_En_Form();
+            Tinsa_Issued2 tbf = new Tinsa_Issued2();
             this.pannelStyledChange(tbf);
         }
 
         private void button11_Click_1(object sender, EventArgs e)
         {
-            Tinsa_Issued_Form tbf = new Tinsa_Issued_Form();
+            Tinsa_Issued1 tbf = new Tinsa_Issued1();
             this.pannelStyledChange(tbf);
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            Tinsa_Issued_Search_Form tbf = new Tinsa_Issued_Search_Form();
+            Tinsa_Issued3 tbf = new Tinsa_Issued3();
             this.pannelStyledChange(tbf);
         }
       
         private void button20_Click(object sender, EventArgs e)
         {
-            Tinsa_Dept_Total_Form tbf = new Tinsa_Dept_Total_Form();
+            Tinsa_Total1 tbf = new Tinsa_Total1();
             this.pannelStyledChange(tbf);
         }
 
@@ -177,48 +177,48 @@ namespace LMGHRmanagement
 
         private void button23_Click(object sender, EventArgs e)
         {
-            Tinsa_Nopetc_Form tbf = new Tinsa_Nopetc_Form();
+            Tinsa_Total4 tbf = new Tinsa_Total4();
             this.pannelStyledChange(tbf);
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-            Tinsa_Titnoe_Form tbf = new Tinsa_Titnoe_Form();
+            Tinsa_Total3 tbf = new Tinsa_Total3();
             this.pannelStyledChange(tbf);
         }
 
         private void button24_Click(object sender, EventArgs e)
         {
-            Tinsa_Nopwr_Form tbf = new Tinsa_Nopwr_Form();
+            Tinsa_Total5 tbf = new Tinsa_Total5();
             this.pannelStyledChange(tbf);
         }
         private void button21_Click(object sender, EventArgs e)
         {
-            Tinsa_Rank_Total_Form tbf = new Tinsa_Rank_Total_Form();
+            Tinsa_Total2 tbf = new Tinsa_Total2();
             this.pannelStyledChange(tbf);
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            Tinsa_Coe_Form tbf = new Tinsa_Coe_Form();
+            Tinsa_Coe1 tbf = new Tinsa_Coe1();
             this.pannelStyledChange(tbf);
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            Tinsa_Career_Certificate_Form tbf = new Tinsa_Career_Certificate_Form();
+            Tinsa_Coe2 tbf = new Tinsa_Coe2();
             this.pannelStyledChange(tbf);
         }
 
         private void button18_Click_1(object sender, EventArgs e)
         {
-            Tinsa_Career_Total_Form tbf = new Tinsa_Career_Total_Form();
+            Tinsa_Coe4 tbf = new Tinsa_Coe4();
             this.pannelStyledChange(tbf);
         }
 
         private void button28_Click_1(object sender, EventArgs e)
         {
-            Tinsa_Dept_Form tbf = new Tinsa_Dept_Form();
+            TInsa_Code3 tbf = new TInsa_Code3();
             this.pannelStyledChange(tbf);
         }
 

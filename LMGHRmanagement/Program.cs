@@ -16,7 +16,9 @@ namespace LMGHRmanagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new TestSample());
             Application.Run(new MainMenuForm());
+            //Application.Run(new TextBoxTest());
             //Application.Run(new Tinsa_Coe_Form());
         }
     }
